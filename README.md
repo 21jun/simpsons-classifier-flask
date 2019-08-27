@@ -9,10 +9,11 @@ python server.py
 
 ## inference
 
-```http://127.0.0.1:8000/predict?url="The Simpons family image url you want to inference"```
+```
+http://127.0.0.1:8000/predict?url="The Simpons family image url you want to inference"
+```
 
 ex)
-
 
 ```
 http://127.0.0.1:8000/predict?url=https://images.clipartlogo.com/files/images/48/481391/maggie-simpson-1_f.jpg
@@ -22,10 +23,10 @@ http://127.0.0.1:8000/predict?url=https://visla.kr/wp/wp-content/uploads/2015/03
 ```
 ## response
 ```
-{"predict": "lisa_simpson", "date": "2019-08-28 03:49:36.078090", "execute time": 0.5399980545043945}
+{"predict": "lisa_simpson", "proba": 0.9948817491531372, "date": "2019-08-28 04:23:54.205912", "execute time": 0.5455162525177002}
 ```
 ```
-{"predict": "bart_simpson", "date": "2019-08-28 03:51:53.867311", "execute time": 0.5450229644775391}
+{"predict": "bart_simpson", "proba": 0.9999544620513916, "date": "2019-08-28 04:23:36.695044", "execute time": 0.5500726699829102}
 ```
 
 

@@ -41,12 +41,13 @@ def predict():
     img = open_image(BytesIO(response.content))
 
     t = time.time()
-    pred, _, _ = learn.predict(img)
+    pred, _, proba = learn.predict(img)
     dt = time.time() - t
     print(f"Execution time: {dt}")
 
     print(pred)
-    result = {'predict': str(pred), 'date': str(datetime.datetime.now()), "execute time": dt}
+    print(proba)
+    result = {'predict': str(pred), 'proba':float(proba[proba.argmax()]) ,'date': str(datetime.datetime.now()), "execute time": dt}
     return json.dumps(result)
 
 

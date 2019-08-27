@@ -1,6 +1,6 @@
 ## setup
 ```sh
-python -m venv flaskven
+python -m venv flaskenv
 pip install -r requirements.txt
 ```
 ## run

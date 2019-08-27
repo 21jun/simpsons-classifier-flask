@@ -1,3 +1,8 @@
+## setup
+```sh
+python -m venv flaskven
+pip install -r requirements.txt
+```
 ## run
 
 python server.py

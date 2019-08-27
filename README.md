@@ -9,7 +9,8 @@ python server.py
 ex)
 
 
-```http://127.0.0.1:8000/predict?url=https://images.clipartlogo.com/files/images/48/481391/maggie-simpson-1_f.jpg
+```
+http://127.0.0.1:8000/predict?url=https://images.clipartlogo.com/files/images/48/481391/maggie-simpson-1_f.jpg
 ```
 ```
 http://127.0.0.1:8000/predict?url=https://visla.kr/wp/wp-content/uploads/2015/03/The-Simpsons-Illustrated-in-Streetwear-05.jpg
